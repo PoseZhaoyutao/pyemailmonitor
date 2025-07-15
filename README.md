@@ -19,7 +19,7 @@ PyEmailMonitor 是一个 Python 库，用于监控程序执行状态并通过电
 ### 从 PyPI 安装（推荐）
 
 ```bash
-pip install pyemailmonitor
+pip install -i https://pypi.python.org/simple pyemailmonitor
 ```
 
 ### 从 GitHub 源码安装
