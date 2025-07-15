@@ -1,6 +1,11 @@
 LICENSE
 README.md
 setup.py
+pyemailmonitor/__init__.py
+pyemailmonitor/cli.py
+pyemailmonitor/exceptions.py
+pyemailmonitor/monitor.py
+pyemailmonitor/templates.py
 pyemailmonitor.egg-info/PKG-INFO
 pyemailmonitor.egg-info/SOURCES.txt
 pyemailmonitor.egg-info/dependency_links.txt
