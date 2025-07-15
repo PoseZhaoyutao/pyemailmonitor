@@ -70,6 +70,9 @@ email-monitor show-config
 
 #### 基本用法
 
+![img_1.png](img_1.png)
+直接配置自己邮箱即可，默认有分发邮箱，直接执行下一步程序即可。
+![img.png](img.png)
 ```bash
 email-monitor run "您的程序名称" \
     --smtp-server "smtp.example.com" \
