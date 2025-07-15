@@ -110,7 +110,7 @@ def main():
     run_parser.add_argument("--smtp-server", default='smtp.163.com', help="SMTP服务器地址")
     run_parser.add_argument("--smtp-port", default=465, type=int, help="SMTP服务器端口")
     run_parser.add_argument("--smtp-user", default='zzu_yutaozhao@163.com', help="SMTP用户名")
-    run_parser.add_argument("--smtp-password", default='MZqtAQDTX29hnyUd', help="SMTP密码")
+    run_parser.add_argument("--smtp-password", default='', help="SMTP密码")
     run_parser.add_argument("--no-ssl", action="store_true", help="不使用SSL连接")
     run_parser.add_argument("--cc", help="抄送邮箱（多个用逗号分隔）")
     run_parser.add_argument("--test-mode", action="store_true", help="测试模式（不实际发送邮件）")
